@@ -90,16 +90,24 @@ header {
   display: flex;
   margin: 14px;
   justify-content: center;
+  gap: 20px;
 }
 
 .info-sub-container {
-  align-items:center;
-  width: 110px;
+  width: 80px;
+  height: auto;
 }
 
 .info-media {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 2px solid #3882F6;
   border-radius: 5px;
+}
+
+.info-subtext {
+  text-decoration: none;
+  font-size: 9px;
+  color: rgb(110, 110, 110);
+  margin: 6px 0;
 }
