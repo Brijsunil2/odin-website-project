@@ -4,7 +4,7 @@
   font-family: Roboto, sans-serif;
 }
 
-header, .container-one, .container-two {
+header, .container-one, .container-two, .container-three {
   padding: 0 16%;
 }
 
@@ -110,4 +110,25 @@ header {
   font-size: 9px;
   color: rgb(110, 110, 110);
   margin: 6px 0;
+}
+
+
+/* Section Three */
+
+.container-three {
+  background-color: #E5E7EB;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container-three em {
+  font-size: 26px;
+  font-weight: 200;
+  color: #575e68;
+  padding: 30% 0;
+}
+
+.container-three strong {
+  display: flex;
+  justify-content: flex-end;
 }
